@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    padding-left: 49px;
+    font-family: serif;
+    font-style: oblique;
+}
+
+img.d-block.w-100 {
+    object-fit: cover;
+    height: 41rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 40px;
+    color: white;
+}
+
+button.btn.btn-outline-success {
+    margin-right: 26px;
+    margin-left: 15px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.demo{
+    display: flex;
+    width: 100%;
+    margin-top: -90px;
+    padding: 110px 30px 500px;
+    justify-content: center;
+    background-image: url(https://images.pexels.com/photos/1047540/pexels-photo-1047540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+}
+
+.parent {
+    position: absolute;
+    top: 224px;
+    text-align: center;
+    color: white;
+}
+.child{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #b3b3b3;
+    line-height: 30px;
+    font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.child h4{
+    color: black;
+}
+.section{
+    margin-bottom: 131px;
+}
+.project{
+    padding-left: 151px;
+    font-size: 26px;
+}
+#para{
+    color: #b3b3b3;;
+}
+.more{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: green;
+    padding-left: 555px;
+    margin-bottom: 100px;
+}
+.card-text{
+    color: #b3b3b3;;
+}
+.food{
+    margin-left: 66px;
+}
+.social{
+    padding-left: 2px;
+}
+.footer{
+    background-color: #3b3636;
+}
+.address{
+    margin-left: 36px;
+}
+i.fa-brands.fa-facebook {
+    padding-right: 17px;
+}
+
+i.fa-brands.fa-instagram{
+    padding-right: 16px;
+}
+i.fa-brands.fa-twitter{
+    padding-right: 16px;
+}
+i.fa-brands.fa-facebook:hover {
+    transform: scale(1.5);
+}
+i.fa-brands.fa-instagram:hover {
+    transform: scale(1.5);
+}
+i.fa-brands.fa-twitter:hover {
+    transform: scale(1.5);
+}
