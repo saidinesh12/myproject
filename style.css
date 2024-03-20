@@ -1,12 +1,21 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
 }
 
 .navbar-brand {
     padding-left: 49px;
     font-family: serif;
     font-style: oblique;
+}
+
+.navbar-brand h1 span{
+    color: #ffa500;
+    font-size: 50px;
 }
 
 img.d-block.w-100 {
@@ -45,6 +54,9 @@ button.btn.btn-outline-success {
     text-align: center;
     color: white;
 }
+.parent h1 span{
+    color: #ffa500;
+}
 .child{
     font-family: 'Libre Franklin', sans-serif;
     color: #b3b3b3;
@@ -56,12 +68,19 @@ button.btn.btn-outline-success {
 .child h4{
     color: black;
 }
+.child h4 span{
+    color: #ffa500;
+}
 .section{
     margin-bottom: 131px;
 }
 .project{
     padding-left: 151px;
     font-size: 26px;
+}
+.project p span{
+    color: #ffa500;
+    font-size: 35px;
 }
 #para{
     color: #b3b3b3;;
@@ -76,9 +95,7 @@ button.btn.btn-outline-success {
 .card-text{
     color: #b3b3b3;;
 }
-.food{
-    margin-left: 66px;
-}
+
 .social{
     padding-left: 2px;
 }
@@ -107,3 +124,47 @@ i.fa-brands.fa-instagram:hover {
 i.fa-brands.fa-twitter:hover {
     transform: scale(1.5);
 }
+
+/* About Start */
+.about{
+    padding: 50px;
+    margin-top: 50px;
+    background: #f9f9f9;
+}
+.about .card{
+    border-radius: 10px;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.about h2 span{
+    color: #ffa500;
+}
+.about p{
+    font-weight: 500;
+}
+#about-btn{
+    width: 150px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background: #ffa500;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#about-btn:hover{
+    width: 170px;
+}
+@media (max-width:765px){
+    .about{
+        padding: 0;
+    }
+}
+/* About End */
